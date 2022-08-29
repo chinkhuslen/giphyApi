@@ -1,0 +1,27 @@
+.gifCon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.gif {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.gif:hover {
+  transform: scale(1.2);
+}
+.op0 {
+  opacity: 0;
+}
+.op1 {
+  opacity: 1;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: centet;
+}
